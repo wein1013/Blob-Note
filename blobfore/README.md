@@ -1,24 +1,22 @@
-# blobfore
-
-## Project setup
-```
+<!--
+ * @Author: GEOWAY\zhaoweiwen 2565088230@qq.com
+ * @Date: 2022-08-16 14:17:27
+ * @LastEditors: GEOWAY\zhaoweiwen 2565088230@qq.com
+ * @LastEditTime: 2022-08-16 18:06:45
+ * @FilePath: \Blob-Note\blobfore\README.md
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
+# 后端启动：
+# 后端路径 Blog_Note
+npm install;
+npm run start 
+# 前端启动
+# 前端路径 blobfore
 npm install
-```
-
-### Compiles and hot-reloads for development
-```
 npm run serve
-```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+# 前端项目打包
+npm run build   
+# 前端打包后的路径
+resource/index
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
