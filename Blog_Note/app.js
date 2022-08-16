@@ -2,7 +2,7 @@
  * @Author: GEOWAY\zhaoweiwen 2565088230@qq.com
  * @Date: 2022-08-15 18:11:05
  * @LastEditors: GEOWAY\zhaoweiwen 2565088230@qq.com
- * @LastEditTime: 2022-08-16 17:10:13
+ * @LastEditTime: 2022-08-16 18:16:45
  * @FilePath: \Blob-Note\Blog_Note\app.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -30,7 +30,7 @@ app.use(cookieParser()); // 定义cookie处理对象
 // 定义静态文件资源目录public 访问可以用/ 直接访问 接受两个参数 
 // app.use(express.static('/static',path.join(__dirname, 'public'))); 
 app.use(express.static(path.join(__dirname, 'public'))); //原本定义的public目录为静态资源目录
-
+app.use('/', indexRouter);
 app.use('/blobnote', indexRouter); //定义指向index.js的路由
 app.use('/blobnote/users', usersRouter); // 定义指向users.js的路由
 
