@@ -11,7 +11,9 @@
     "axios": "^0.27.2",
     "core-js": "^3.8.3",
     "hot-hash-webpack-plugin": "^1.0.2",
+    "node-sass": "^7.0.1",
     "router": "^1.3.7",
+    "sass-loader": "^13.0.2",
     "vue": "^3.2.13",
     "webpackbar": "^5.0.2"
   },

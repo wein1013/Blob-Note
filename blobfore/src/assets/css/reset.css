@@ -1,0 +1,18 @@
+@charset "UTF-8";
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { position: relative; width: 100%; height: 100%; }
+body { color: #666; font: 12px/1.5rem; font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif, "宋体"; background: #fff; }
+h1, h2, h3, h4, h5, h6, p, div, ul, li, button, input, span, fieldset, img, a, textarea { list-style: none; border: 0; outline: none; font-style: normal; font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif, "宋体"; text-decoration: none; }
+i, em { font-style: normal; display: inline-block; }
+table { width: 100%; border-collapse: collapse; text-align: center; table-layout: fixed; }
+img { vertical-align: middle; }
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { color: #ccc; }
+input:-moz-placeholder, textarea:-moz-placeholder { color: #ccc; }
+input:-ms-placeholder, textarea:-ms-placeholder { color: #ccc; }
+input:-o-placeholder, textarea:-o-placeholder { color: #ccc; }
+button { display: block; background: transparent; cursor: pointer; }
+button::-moz-focus-inner { border: 0; }
+input, button, select, textarea { outline: none; }
+.clear-out { clear: both; }
+/* 瓦片地图*/
+
